@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-color:antiquewhite ;">
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -69,7 +69,7 @@
             show.innerHTML = ""
             cart.map((task, index) => {
                 show.innerHTML += ` <div class="justify-content-center text-center align
-                  " style="margin-left:100px;"><div class="card mt-3 shadow-sm " style="width: 12rem;">
+                  " style="margin-left:80px;"><div class="card mt-3 shadow-sm " style="width: 12rem;">
                   <div class="card-body">
                   <h5 class="card-title text-primary">Product</h5>
                   <p>${index + 1}.<p> ${task}</p>
